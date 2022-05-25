@@ -1,0 +1,70 @@
+.listing-add-form-container {
+    position: relative;
+    display: flex;
+    padding-top: 25px;
+}
+.listing-form-sidebar-container {
+    width: 200px;
+    margin: 0 auto;
+}
+.listing-form-main-contents-container {
+    flex: 1;
+    padding-left: 1rem;
+}
+.listing-form-sidebar-container .list-group {
+    padding-right: 1rem;
+}
+.listing-form-sidebar-container .list-group-item {
+    border: unset;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 0.6rem 0 0.5rem 1.25rem;
+    font-size: 15px;
+}
+.listing-form-sidebar-container .list-group-item.active {
+    background-color: #00c5dc;
+    box-shadow: 0px 5px 10px 2px rgba(0,197,220,0.19) !important;
+    border-radius: .25rem;
+}
+.listing-form-main-contents-container .property-title-label {
+    margin-bottom: 1rem;
+}
+.listing-form-main-contents-container .form-group.has-danger .property-title-label {
+    color: #eb4636;
+}
+.listing-form-main-contents-container .m-radio {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+.listing-form-sidebar-container .list-group-item.list-group-item-action.tab-passed::after {
+    content: "\f17b";
+    color: #16ec09;
+    font: normal normal bold 16px/1 "LineAwesome";
+    font-size: 1.5rem!important;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+#store_main_img_form .main-img-container {
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+#store_main_img_form .main-img-container>.image-change-btn {
+    padding: 5px 10px;
+    width: 80px;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 40px);
+}
+#store_main_img_form .main-img-container>img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}

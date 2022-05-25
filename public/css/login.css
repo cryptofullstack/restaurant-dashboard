@@ -1,0 +1,7 @@
+.m-grid__item.m-grid__item--fluid.m-login__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+}

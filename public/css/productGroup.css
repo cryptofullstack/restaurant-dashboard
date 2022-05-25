@@ -1,0 +1,32 @@
+.m-portlet .m-portlet__head.thin {
+    height: 3rem;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+.extraTable-container {
+    overflow-y: auto;
+    max-height: 250px;
+}
+.extraTable-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.extraTable-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.extraTable-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.extraTable-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.m-checkbox-single {
+    position: static!important;
+    padding: 0!important;
+}
